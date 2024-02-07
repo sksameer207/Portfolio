@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="header">
+      <div class="logo">Portfolio</div>
+      <nav class="elements">
+        <a href="#home" class="elements-opt">Home</a>
+        <a href="#about" class="elements-opt">About</a>
+        <a href="#skills" class="elements-opt">Skills</a>
+        <a href="#Projects" class="elements-opt">Projects</a>
+        <a href="#Contact" class="elements-opt">Contact</a>
+      </nav>
+    </section>
+    <section class="main" id="home">
+      <div class="main-content">
+        <h4 class="head">Hello, its Me</h4>
+        <h1 class="name">Shaik Kutagal Sameer</h1>
+        <p class="matter">
+          And I'm a <b><span class="auto-type"></span> </b>
+        </p>
+        <div class="icons">
+          <i id="icon" class="fa-brands fa-facebook-f"></i>
+          <i id="icon" class="fa-brands fa-instagram"></i>
+          <i id="icon" class="fa-brands fa-whatsapp"></i>
+          <i id="icon" class="fa-brands fa-x-twitter"></i>
+        </div>
+        <button onclick="getabout()">more about me</button>
+      </div>
+    </section>
+    <section id="about">
+      <img src="about-pic.png" alt="sameerpic" class="about-img" />
+      <div class="about-me">
+        <h1>About Me</h1>
+
+        <p>
+          Hello there! I'm shaik kutagal sameer,<br />
+          a passionate and innovative frontend developer<br />
+          eager to embark on a journey in the ever-evolving<br />
+          world of web development.My goal is to contribute <br/>
+          my skills and creativity to crafting engaging <br/>
+          and user-friendly interfaces. With a solid foundation<br/>
+          in HTML, CSS, and JavaScript, I am well-equipped to<br/> 
+          transform design concepts into functional and visually<br>
+          appealing websites. As a newcomer to the frontend development<br>
+          arena, I am excited about the opportunity to contribute<br>
+          my creativity, dedication, and willingness to learn.
+          
+        </p>
+
+      </div>
+    </section>
+
+    <section id="skills">
+      <h1>Skills</h1>
+      
+       
+        <div class="skill-container">
+          
+           
+            <h3> <i class="fa-brands fa-html5 fa-2xl" style="color: #e34c26;"></i>HTML5</h3>
+          
+           
+            <h3> <i class="fa-brands fa-css3-alt fa-2xl" style="color: #264de4;"></i>CSS</h3>
+          
+           
+            <h3> <i class="fa-brands fa-js fa-2xl" style="color: #FFD43B;"></i>JAVASCRIPT</h3>
+          
+            <h3><i class="fa-brands fa-java fa-2xl" style="color: #7e260b;"></i>JAVA</h3> 
+
+          
+      
+
+      
+       
+          <h3><i class="fa-brands fa-react fa-2xl" style= "color: #74C0FC;"></i>REACT</h3>
+         
+        
+       
+        </div>
+    
+
+    <section id="Projects">
+      <h1>Projects</h1>
+      
+      <div class="project-container">
+        <div>
+          <h6>Spotify Clone</h6>
+          <video class="spotify-clone" controls ><source src="spotify_clone-video.mp4"></video>
+          <a href="https://github.com/sksameer207/Spotify-clone.git">Project link of github</a>
+        </div>
+        <div>
+          <h6>Quiz</h6>
+          <video class="quiz" controls> <source src="quiz-cideo.mp4"></video>
+          <a href="https://github.com/sksameer207/QUIZ-PROJECT.git">Project link of github</a>
+        </div>
+        
+      </div>
+    </section>
+    <section id="Contact">
+      <h1 style="text-align:center;">Contact</h1>
+      <form >
+        <div class="form-elements">
+         
+           <label for="name"><pre>Your Name   <input type="text" placeholder="Name" id="name"></pre></label>
+
+         
+          
+          
+            <label for="email"><pre>Email ID    <input type="text" placeholder="emailid" id="email"></pre></label>
+          
+          
+            <label for="number">Phone Number&nbsp
+            <input type="text" placeholder="phone number" id="number"></label>
+            <button type="button" >Submit</button>
+        </div>
+                
+        
+        
+      </form>
+    </section>
+        
+          
+        
+      
+    </section>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
